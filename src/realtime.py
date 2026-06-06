@@ -33,7 +33,7 @@ CLASSES = get_classes()
 COLORS = get_colors() 
 
 logger.realtime("Starting camera capture...")
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0, cv2.CAP_AVFOUNDATION)
 
 # Initialize performance tracking
 frame_count = 0
@@ -53,7 +53,7 @@ while cap.isOpened():
 
     probabilities = result['pred_logits'].softmax(-1)[:,:,:-1] 
     max_probs, max_classes = probabilities.max(-1)
-    keep_mask = max_probs > 0.8
+    keep_mask = max_probs > 0.65
 
     batch_indices, query_indices = torch.where(keep_mask) 
 

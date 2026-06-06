@@ -1,0 +1,8 @@
+2026-05-19 23:44:09,409 - realtime - INFO - [realtime]📹 Initializing real-time sign language detection...[/realtime]
+2026-05-19 23:44:09,911 - realtime - INFO - [realtime]📹 Starting camera capture...[/realtime]
+2026-05-19 23:44:13,278 - realtime - ERROR - [error]Failed to read frame from camera[/error]
+2026-05-19 23:44:37,070 - realtime - INFO - [realtime]📹 Initializing real-time sign language detection...[/realtime]
+2026-05-19 23:44:37,521 - realtime - INFO - [realtime]📹 Starting camera capture...[/realtime]
+2026-05-19 23:44:39,866 - realtime - ERROR - [error]Failed to read frame from camera[/error]
+2026-05-19 23:44:51,674 - realtime - INFO - [realtime]📹 Initializing real-time sign language detection...[/realtime]
+2026-05-19 23:44:52,131 - realtime - INFO - [realtime]📹 Starting camera capture...[/realtime]
